@@ -1,36 +1,35 @@
-# MiJurnal
+# GetSkill - Automation Testing
 
-MiJurnal adalah project pengujian website menggunakan **Cypress**. 
-Project ini dibuat untuk melakukan pengujian otomatis pada beberapa fitur dan halaman yang terdapat pada website MiJurnal.
+Project ini merupakan automation testing untuk website **GetSkill** menggunakan **Cypress**.
+
+Testing dilakukan untuk memastikan fitur-fitur utama pada website GetSkill dapat berjalan sesuai dengan fungsi yang diharapkan.
+
+## 🧪 Daftar Testing
+
+| No | File Testing | Fitur yang Diuji |
+|---|---|---|
+| 01 | `01-beranda.cy.js` | Pengujian halaman Beranda |
+| 02 | `02-registrasi.cy.js` | Pengujian halaman Registrasi |
+| 03 | `03-dashboard.cy.js` | Pengujian halaman Dashboard |
+| 04 | `04-COURSE.cy.js` | Pengujian fitur Course |
+| 05 | `05-Event.cy.js` | Pengujian fitur Event |
+| 06 | `06-riviews.cy.js` | Pengujian fitur Reviews |
+| 07 | `07- Penukaran Poin.cy.js` | Pengujian fitur Penukaran Poin |
+| 08 | `08- Profil Saya.cy.js` | Pengujian halaman Profil Saya |
+| 09 | `09-Password.cy.js` | Pengujian Password |
 
 ## 🛠️ Teknologi yang Digunakan
 
 - JavaScript
 - Cypress
 - Node.js
-- Git & GitHub
+- Git
+- GitHub
 
-## 📁 Struktur Testing
+## 🚀 Cara Menjalankan Testing
 
-Beberapa file pengujian yang terdapat dalam project:
-
-- `login.cy.js` — Pengujian halaman login
-- `registasi.cy.js` — Pengujian halaman registrasi
-- `dashboard.cy.js` — Pengujian dashboard
-- `dashboard2.cy.js` — Pengujian fitur dashboard
-- `tentangkami.cy.js` — Pengujian halaman Tentang Kami
-- `kontak.cy.js` — Pengujian halaman Kontak
-- `berita.cy.js` — Pengujian halaman Berita
-- `daftarkelas.cy.js` — Pengujian daftar kelas
-- `daftarpengguna.cy.js` — Pengujian daftar pengguna
-- `jurnalsiswa.cy.js` — Pengujian jurnal siswa
-- `jurnalmengajar.cy.js` — Pengujian jurnal mengajar
-- `epep.cy.js` — Pengujian aplikasi EPEP
-- `paket_premium.cy.js` — Pengujian paket premium
-
-## 🚀 Cara Menjalankan Project
-
-### 1. Clone repository
+### 1. Install Dependency
 
 ```bash
-git clone https://github.com/Andhika154/Mijurnal.git
+npm install
+https://github.com/Andhika154/getskill
